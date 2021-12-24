@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+#include<iostream>
+#include<windows.h>
+#include<cstdlib>
+using namespace std;
+
+
+
+const int maxn=10^10;
+int k,a;
+int x=maxn;
+void linear_function(){
+	keybd_event(VK_RETURN,0,0,0);
+    keybd_event(VK_RETURN,0,2,0);
+	system("color 9F");
+	cout<<"输入常数k";
+	cin>>k;
+	keybd_event(VK_RETURN,0,0,0);
+    keybd_event(VK_RETURN,0,2,0);
+	system("color 6F");
+	cout<<endl<<"输入常数a";
+	cin>>a;
+	cout<<"y=kx+a"<<endl;
+	system("color 4F");
+	for(int i=10;i>x;i--){
+		cout<<k*x+a<<"="<<k<<"*"<<x<<"+"<<a<<endl;
+		x++;
+		Sleep(500);
+	} 			
+} 
+int main(){
+	int x=0;
+	linear_function();
+	for(int j=2;j>0;j--){
+		int i=10;
+		return main();
+	}
+	return 0;	
+} 
